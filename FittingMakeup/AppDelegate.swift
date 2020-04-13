@@ -7,15 +7,53 @@
 //
 
 import UIKit
+import NCMB
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+  
+    
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+       
+        NCMB.setApplicationKey("3f7dabe3464cf3550697f82b4c78d7abbe1aa3f33d1552984d6312af5cf49ad4", clientKey: "663d5fdbc0dd2b8548765422ae3553bf95999cbab97d277ca7d5f60e02d5cc2c")
+        
+        
+        let ud = UserDefaults.standard
+        let isLogin = ud.bool(forKey: "isLogin")
+       
+        if isLogin == true{
+            
+           
+            //ログイン中だったら
+            self.window = UIWindow(frame: UIScreen.main.bounds)
+            let storyboard = UIStoryboard(name: "Main", bundle:Bundle.main)
+            let rootViewController = storyboard.instantiateViewController(withIdentifier:"RootTabBarController" )
+            self.window?.rootViewController = rootViewController
+            self.window?.backgroundColor = UIColor.white
+            self.window?.makeKeyAndVisible()
+            
+          
+            
+        }else{
+            //ログインしてなかったら
+            self.window = UIWindow(frame: UIScreen.main.bounds)
+            let storyboard = UIStoryboard(name: "SignIn", bundle:Bundle.main)
+            let rootViewController = storyboard.instantiateViewController(withIdentifier:"RootNavigationController" )
+            self.window?.rootViewController = rootViewController
+            self.window?.backgroundColor = UIColor.white
+            self.window?.makeKeyAndVisible()
+        }
+        
+        // ナビゲーションバーの色変更
+        UINavigationBar.appearance().barTintColor = UIColor.makeUpPink
+        //tabbarの選択された時の色の変更
+        UITabBar.appearance().tintColor = UIColor.darkGray
+ 
+        
         return true
     }
 
@@ -40,6 +78,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    
+  
 
 
 }

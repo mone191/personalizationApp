@@ -7,14 +7,298 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53850B47278C81A14668E2CB /* Pods_FittingMakeup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6469AB450B43C5EE4023349 /* Pods_FittingMakeup.framework */; };
+		6E09F953213CD84400DDB72C /* FoundationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E09F952213CD84400DDB72C /* FoundationListViewController.swift */; };
+		6E09F955213D27CF00DDB72C /* FoundationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E09F954213D27CF00DDB72C /* FoundationTableViewCell.swift */; };
+		6E09F957213D27FC00DDB72C /* FoundationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E09F956213D27FC00DDB72C /* FoundationTableViewCell.xib */; };
+		6E0C5EE420F7460600BCF8F5 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C5EE320F7460600BCF8F5 /* SignInViewController.swift */; };
+		6E0C5EE620F747BE00BCF8F5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C5EE520F747BE00BCF8F5 /* SignUpViewController.swift */; };
+		6E0F8FD8213BBFA500100FCE /* ExplainWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F8FD7213BBFA500100FCE /* ExplainWebViewController.swift */; };
+		6E0F8FDA213BBFBF00100FCE /* ProductTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F8FD9213BBFBF00100FCE /* ProductTypeViewController.swift */; };
+		6E0F8FDC213BBFD800100FCE /* SelectSeasonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F8FDB213BBFD800100FCE /* SelectSeasonViewController.swift */; };
+		6E0F8FDE213BBFEB00100FCE /* CosmeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F8FDD213BBFEB00100FCE /* CosmeListViewController.swift */; };
+		6E0F90BC213BC57C00100FCE /* eyeshadow-winter-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9074213BC57B00100FCE /* eyeshadow-winter-blue-min.csv */; };
+		6E0F90BD213BC57C00100FCE /* eyeshadow-autumn-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9075213BC57B00100FCE /* eyeshadow-autumn-green-max.csv */; };
+		6E0F90BE213BC57C00100FCE /* eyeshadow-summer-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9076213BC57B00100FCE /* eyeshadow-summer-red-max.csv */; };
+		6E0F90BF213BC57C00100FCE /* lipstick-summer-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9077213BC57B00100FCE /* lipstick-summer-blue-max.csv */; };
+		6E0F90C0213BC57C00100FCE /* lipstick-winter-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9078213BC57B00100FCE /* lipstick-winter-green-max.csv */; };
+		6E0F90C1213BC57C00100FCE /* eyeshadow-autumn-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9079213BC57B00100FCE /* eyeshadow-autumn-red-min.csv */; };
+		6E0F90C2213BC57C00100FCE /* lipstick-summer-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F907A213BC57B00100FCE /* lipstick-summer-green-min.csv */; };
+		6E0F90C3213BC57C00100FCE /* lipstick-autumn-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F907B213BC57B00100FCE /* lipstick-autumn-blue-min.csv */; };
+		6E0F90C4213BC57C00100FCE /* eyeshadow-winter-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F907C213BC57B00100FCE /* eyeshadow-winter-red-min.csv */; };
+		6E0F90C5213BC57C00100FCE /* lipstick-autumn-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F907D213BC57B00100FCE /* lipstick-autumn-red-max.csv */; };
+		6E0F90C6213BC57C00100FCE /* lipstick-spring-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F907E213BC57B00100FCE /* lipstick-spring-blue-max.csv */; };
+		6E0F90C7213BC57C00100FCE /* lipstick-winter-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F907F213BC57B00100FCE /* lipstick-winter-red-max.csv */; };
+		6E0F90C8213BC57C00100FCE /* lipstick-summer-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9080213BC57B00100FCE /* lipstick-summer-red-min.csv */; };
+		6E0F90C9213BC57C00100FCE /* blush-spring-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9081213BC57B00100FCE /* blush-spring-red-min.csv */; };
+		6E0F90CA213BC57C00100FCE /* blush-winter-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9082213BC57B00100FCE /* blush-winter-blue-min.csv */; };
+		6E0F90CB213BC57C00100FCE /* blush-summer-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9083213BC57B00100FCE /* blush-summer-green-min.csv */; };
+		6E0F90CC213BC57C00100FCE /* blush-winter-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9084213BC57B00100FCE /* blush-winter-green-max.csv */; };
+		6E0F90CD213BC57C00100FCE /* eyeshadow-spring-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9085213BC57B00100FCE /* eyeshadow-spring-green-min.csv */; };
+		6E0F90CE213BC57C00100FCE /* eyeshadow-autumn-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9086213BC57B00100FCE /* eyeshadow-autumn-blue-min.csv */; };
+		6E0F90CF213BC57C00100FCE /* blush-spring-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9087213BC57B00100FCE /* blush-spring-blue-max.csv */; };
+		6E0F90D0213BC57C00100FCE /* eyeshadow-summer-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9088213BC57B00100FCE /* eyeshadow-summer-blue-max.csv */; };
+		6E0F90D1213BC57C00100FCE /* blush-autumn-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9089213BC57B00100FCE /* blush-autumn-green-min.csv */; };
+		6E0F90D2213BC57C00100FCE /* lipstick-spring-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F908A213BC57B00100FCE /* lipstick-spring-green-max.csv */; };
+		6E0F90D3213BC57C00100FCE /* lipstick-spring-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F908B213BC57B00100FCE /* lipstick-spring-red-min.csv */; };
+		6E0F90D4213BC57C00100FCE /* lipstick-winter-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F908C213BC57B00100FCE /* lipstick-winter-blue-min.csv */; };
+		6E0F90D5213BC57C00100FCE /* blush-summer-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F908D213BC57B00100FCE /* blush-summer-red-min.csv */; };
+		6E0F90D6213BC57C00100FCE /* blush-winter-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F908E213BC57B00100FCE /* blush-winter-red-max.csv */; };
+		6E0F90D7213BC57C00100FCE /* blush-autumn-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F908F213BC57B00100FCE /* blush-autumn-red-max.csv */; };
+		6E0F90D8213BC57C00100FCE /* lipstick-autumn-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9090213BC57B00100FCE /* lipstick-autumn-green-min.csv */; };
+		6E0F90D9213BC57C00100FCE /* eyeshadow-spring-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9091213BC57B00100FCE /* eyeshadow-spring-red-max.csv */; };
+		6E0F90DA213BC57C00100FCE /* eyeshadow-winter-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9092213BC57B00100FCE /* eyeshadow-winter-green-min.csv */; };
+		6E0F90DB213BC57C00100FCE /* eyeshadow-summer-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9093213BC57B00100FCE /* eyeshadow-summer-green-max.csv */; };
+		6E0F90DC213BC57C00100FCE /* blush-summer-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9094213BC57B00100FCE /* blush-summer-blue-max.csv */; };
+		6E0F90DD213BC57C00100FCE /* blush-autumn-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9095213BC57B00100FCE /* blush-autumn-blue-min.csv */; };
+		6E0F90DE213BC57C00100FCE /* blush-spring-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9096213BC57B00100FCE /* blush-spring-green-max.csv */; };
+		6E0F90DF213BC57C00100FCE /* eyeshadow-spring-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9097213BC57B00100FCE /* eyeshadow-spring-blue-max.csv */; };
+		6E0F90E0213BC57C00100FCE /* eyeshadow-winter-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9098213BC57B00100FCE /* eyeshadow-winter-blue-max.csv */; };
+		6E0F90E1213BC57C00100FCE /* eyeshadow-autumn-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9099213BC57B00100FCE /* eyeshadow-autumn-green-min.csv */; };
+		6E0F90E2213BC57C00100FCE /* eyeshadow-summer-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F909A213BC57B00100FCE /* eyeshadow-summer-red-min.csv */; };
+		6E0F90E3213BC57C00100FCE /* lipstick-summer-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F909B213BC57B00100FCE /* lipstick-summer-blue-min.csv */; };
+		6E0F90E4213BC57C00100FCE /* lipstick-winter-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F909C213BC57B00100FCE /* lipstick-winter-green-min.csv */; };
+		6E0F90E5213BC57C00100FCE /* eyeshadow-autumn-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F909D213BC57B00100FCE /* eyeshadow-autumn-red-max.csv */; };
+		6E0F90E6213BC57C00100FCE /* lipstick-summer-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F909E213BC57B00100FCE /* lipstick-summer-green-max.csv */; };
+		6E0F90E7213BC57C00100FCE /* lipstick-autumn-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F909F213BC57B00100FCE /* lipstick-autumn-blue-max.csv */; };
+		6E0F90E8213BC57C00100FCE /* eyeshadow-winter-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90A0213BC57B00100FCE /* eyeshadow-winter-red-max.csv */; };
+		6E0F90E9213BC57C00100FCE /* lipstick-autumn-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90A1213BC57B00100FCE /* lipstick-autumn-red-min.csv */; };
+		6E0F90EA213BC57C00100FCE /* lipstick-spring-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90A2213BC57B00100FCE /* lipstick-spring-blue-min.csv */; };
+		6E0F90EB213BC57C00100FCE /* lipstick-winter-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90A3213BC57B00100FCE /* lipstick-winter-red-min.csv */; };
+		6E0F90EC213BC57C00100FCE /* lipstick-summer-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90A4213BC57B00100FCE /* lipstick-summer-red-max.csv */; };
+		6E0F90ED213BC57C00100FCE /* blush-spring-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90A5213BC57B00100FCE /* blush-spring-red-max.csv */; };
+		6E0F90EE213BC57C00100FCE /* blush-winter-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90A6213BC57B00100FCE /* blush-winter-blue-max.csv */; };
+		6E0F90EF213BC57C00100FCE /* blush-summer-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90A7213BC57B00100FCE /* blush-summer-green-max.csv */; };
+		6E0F90F0213BC57C00100FCE /* blush-winter-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90A8213BC57B00100FCE /* blush-winter-green-min.csv */; };
+		6E0F90F1213BC57C00100FCE /* eyeshadow-spring-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90A9213BC57C00100FCE /* eyeshadow-spring-green-max.csv */; };
+		6E0F90F2213BC57C00100FCE /* eyeshadow-autumn-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90AA213BC57C00100FCE /* eyeshadow-autumn-blue-max.csv */; };
+		6E0F90F3213BC57C00100FCE /* blush-spring-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90AB213BC57C00100FCE /* blush-spring-blue-min.csv */; };
+		6E0F90F4213BC57C00100FCE /* blush-autumn-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90AC213BC57C00100FCE /* blush-autumn-green-max.csv */; };
+		6E0F90F5213BC57C00100FCE /* eyeshadow-summer-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90AD213BC57C00100FCE /* eyeshadow-summer-blue-min.csv */; };
+		6E0F90F6213BC57C00100FCE /* lipstick-spring-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90AE213BC57C00100FCE /* lipstick-spring-green-min.csv */; };
+		6E0F90F7213BC57C00100FCE /* lipstick-spring-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90AF213BC57C00100FCE /* lipstick-spring-red-max.csv */; };
+		6E0F90F8213BC57C00100FCE /* lipstick-winter-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90B0213BC57C00100FCE /* lipstick-winter-blue-max.csv */; };
+		6E0F90F9213BC57C00100FCE /* blush-summer-red-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90B1213BC57C00100FCE /* blush-summer-red-max.csv */; };
+		6E0F90FA213BC57C00100FCE /* blush-winter-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90B2213BC57C00100FCE /* blush-winter-red-min.csv */; };
+		6E0F90FB213BC57C00100FCE /* blush-autumn-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90B3213BC57C00100FCE /* blush-autumn-red-min.csv */; };
+		6E0F90FC213BC57C00100FCE /* lipstick-autumn-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90B4213BC57C00100FCE /* lipstick-autumn-green-max.csv */; };
+		6E0F90FD213BC57C00100FCE /* eyeshadow-spring-red-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90B5213BC57C00100FCE /* eyeshadow-spring-red-min.csv */; };
+		6E0F90FE213BC57C00100FCE /* eyeshadow-winter-green-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90B6213BC57C00100FCE /* eyeshadow-winter-green-max.csv */; };
+		6E0F90FF213BC57C00100FCE /* eyeshadow-summer-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90B7213BC57C00100FCE /* eyeshadow-summer-green-min.csv */; };
+		6E0F9100213BC57C00100FCE /* blush-summer-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90B8213BC57C00100FCE /* blush-summer-blue-min.csv */; };
+		6E0F9101213BC57C00100FCE /* blush-autumn-blue-max.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90B9213BC57C00100FCE /* blush-autumn-blue-max.csv */; };
+		6E0F9102213BC57C00100FCE /* blush-spring-green-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90BA213BC57C00100FCE /* blush-spring-green-min.csv */; };
+		6E0F9103213BC57C00100FCE /* eyeshadow-spring-blue-min.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F90BB213BC57C00100FCE /* eyeshadow-spring-blue-min.csv */; };
+		6E0F9105213BC5D000100FCE /* String+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F9104213BC5D000100FCE /* String+Extention.swift */; };
+		6E0F9109213BC71F00100FCE /* MakeUpAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F9108213BC71F00100FCE /* MakeUpAPI.swift */; };
+		6E0F910B213BC73400100FCE /* HexValueToRGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F910A213BC73400100FCE /* HexValueToRGB.swift */; };
+		6E0F910D213BC74800100FCE /* LoadCSVFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F910C213BC74800100FCE /* LoadCSVFile.swift */; };
+		6E0F9111213BC89600100FCE /* CosmeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F9110213BC89600100FCE /* CosmeTableViewCell.swift */; };
+		6E0F9113213BC8AE00100FCE /* ProductTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F9112213BC8AE00100FCE /* ProductTypeTableViewCell.swift */; };
+		6E0F9115213BC8C300100FCE /* CosmeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9114213BC8C300100FCE /* CosmeTableViewCell.xib */; };
+		6E0F9117213BC8DE00100FCE /* ProductTypeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F9116213BC8DE00100FCE /* ProductTypeTableViewCell.xib */; };
+		6E0F911A213BCBB600100FCE /* Cosme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F9119213BCBB600100FCE /* Cosme.swift */; };
+		6E10D3FD21382737006836EF /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E10D3FC21382737006836EF /* StarView.swift */; };
+		6E142E38211030B300A220F5 /* お気に入り.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E142E37211030B200A220F5 /* お気に入り.png */; };
+		6E142E3C211030D600A220F5 /* プロフィール.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E142E3B211030D600A220F5 /* プロフィール.png */; };
+		6E142E3E211030E400A220F5 /* おすすめ１.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E142E3D211030E400A220F5 /* おすすめ１.png */; };
+		6E142E442110331400A220F5 /* タイプ診断４.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E142E432110331300A220F5 /* タイプ診断４.png */; };
+		6E142E462110331D00A220F5 /* 肌状態４.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E142E452110331D00A220F5 /* 肌状態４.png */; };
+		6E142E482110445D00A220F5 /* P7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E142E472110445D00A220F5 /* P7ViewController.swift */; };
+		6E1F2D0B21399FE50003AE9E /* P8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F2D0A21399FE50003AE9E /* P8ViewController.swift */; };
+		6E1F2D0D2139A0A00003AE9E /* P9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F2D0C2139A0A00003AE9E /* P9ViewController.swift */; };
+		6E1F735F210EC9650068EDF5 /* P6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F735E210EC9650068EDF5 /* P6ViewController.swift */; };
+		6E1F7361210ED9F00068EDF5 /* spring eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F7360210ED9F00068EDF5 /* spring eye.png */; };
+		6E1F7363210ED9FE0068EDF5 /* summer eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F7362210ED9FE0068EDF5 /* summer eye.png */; };
+		6E1F7365210EDA080068EDF5 /* autumn eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F7364210EDA080068EDF5 /* autumn eye.png */; };
+		6E1F7367210EDA120068EDF5 /* winter eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F7366210EDA120068EDF5 /* winter eye.png */; };
+		6E1F7369210EDA210068EDF5 /* spring lip.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F7368210EDA210068EDF5 /* spring lip.png */; };
+		6E1F736B210EDA2C0068EDF5 /* summer lip.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F736A210EDA2C0068EDF5 /* summer lip.png */; };
+		6E1F736F210EDA440068EDF5 /* winter lip.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F736E210EDA440068EDF5 /* winter lip.png */; };
+		6E1F7371210EDA530068EDF5 /* spring skin.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F7370210EDA530068EDF5 /* spring skin.png */; };
+		6E1F7373210EDA5C0068EDF5 /* summer skin.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F7372210EDA5C0068EDF5 /* summer skin.png */; };
+		6E1F7375210EDA660068EDF5 /* autumn skin.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F7374210EDA660068EDF5 /* autumn skin.png */; };
+		6E1F7377210EDA710068EDF5 /* winter skin.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F7376210EDA710068EDF5 /* winter skin.png */; };
+		6E1F737D210EDB530068EDF5 /* autumn lip.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F737C210EDB530068EDF5 /* autumn lip.png */; };
+		6E1FECEE215BB80A0017976D /* custoMakeicon.001.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E1FECED215BB8090017976D /* custoMakeicon.001.jpeg */; };
+		6E429EA72142CE8200FF70D2 /* LikeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E429EA62142CE8200FF70D2 /* LikeTableViewCell.swift */; };
+		6E429EA92142CEA600FF70D2 /* LikeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E429EA82142CEA600FF70D2 /* LikeTableViewCell.xib */; };
+		6E429EAB2142D41700FF70D2 /* LikeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E429EAA2142D41700FF70D2 /* LikeListViewController.swift */; };
+		6E429EAD2142D8F300FF70D2 /* LikeWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E429EAC2142D8F300FF70D2 /* LikeWebViewController.swift */; };
 		6E4E608F20EBAA1B009BA6CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4E608E20EBAA1B009BA6CE /* AppDelegate.swift */; };
 		6E4E609120EBAA1B009BA6CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4E609020EBAA1B009BA6CE /* ViewController.swift */; };
 		6E4E609420EBAA1B009BA6CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4E609220EBAA1B009BA6CE /* Main.storyboard */; };
 		6E4E609620EBAA1C009BA6CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E4E609520EBAA1C009BA6CE /* Assets.xcassets */; };
 		6E4E609920EBAA1C009BA6CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4E609720EBAA1C009BA6CE /* LaunchScreen.storyboard */; };
+		6E4E60A120EBAB49009BA6CE /* makeup1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E4E60A020EBAB49009BA6CE /* makeup1.png */; };
+		6E4E60A520EC087F009BA6CE /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4E60A420EC087F009BA6CE /* SignIn.storyboard */; };
+		6E502C08210953F30020B6FE /* P3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E502C07210953F30020B6FE /* P3ViewController.swift */; };
+		6E502C0A210962150020B6FE /* P4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E502C09210962150020B6FE /* P4ViewController.swift */; };
+		6E502C0C210962260020B6FE /* P5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E502C0B210962260020B6FE /* P5ViewController.swift */; };
+		6E5636B82158E7A8009C0056 /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E56369B2158E7A8009C0056 /* iTunesArtwork@1x.png */; };
+		6E5636B92158E7A8009C0056 /* Icon-App-57x57@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E56369D2158E7A8009C0056 /* Icon-App-57x57@1x.png */; };
+		6E5636BA2158E7A8009C0056 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E56369E2158E7A8009C0056 /* Icon-App-76x76@2x.png */; };
+		6E5636BB2158E7A8009C0056 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E56369F2158E7A8009C0056 /* Icon-App-29x29@1x.png */; };
+		6E5636BC2158E7A8009C0056 /* Icon-App-60x60@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636A02158E7A8009C0056 /* Icon-App-60x60@1x.png */; };
+		6E5636BD2158E7A8009C0056 /* Icon-Small-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636A12158E7A8009C0056 /* Icon-Small-50x50@2x.png */; };
+		6E5636BE2158E7A8009C0056 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636A22158E7A8009C0056 /* Icon-App-40x40@1x.png */; };
+		6E5636BF2158E7A8009C0056 /* Icon-App-76x76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636A32158E7A8009C0056 /* Icon-App-76x76@3x.png */; };
+		6E5636C02158E7A8009C0056 /* Icon-App-72x72@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636A42158E7A8009C0056 /* Icon-App-72x72@1x.png */; };
+		6E5636C12158E7A8009C0056 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636A52158E7A8009C0056 /* Icon-App-20x20@1x.png */; };
+		6E5636C22158E7A8009C0056 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636A62158E7A8009C0056 /* Icon-App-83.5x83.5@2x.png */; };
+		6E5636C32158E7A8009C0056 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636A72158E7A8009C0056 /* Icon-App-20x20@3x.png */; };
+		6E5636C42158E7A8009C0056 /* ItunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636A82158E7A8009C0056 /* ItunesArtwork@2x.png */; };
+		6E5636C52158E7A8009C0056 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636A92158E7A8009C0056 /* Contents.json */; };
+		6E5636C62158E7A8009C0056 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636AA2158E7A8009C0056 /* Icon-App-20x20@2x.png */; };
+		6E5636C72158E7A8009C0056 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636AB2158E7A8009C0056 /* Icon-App-29x29@3x.png */; };
+		6E5636C82158E7A8009C0056 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636AC2158E7A8009C0056 /* Icon-App-40x40@2x.png */; };
+		6E5636C92158E7A8009C0056 /* Icon-App-72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636AD2158E7A8009C0056 /* Icon-App-72x72@2x.png */; };
+		6E5636CA2158E7A8009C0056 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636AE2158E7A8009C0056 /* Icon-App-60x60@3x.png */; };
+		6E5636CB2158E7A8009C0056 /* Icon-Small-50x50@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636AF2158E7A8009C0056 /* Icon-Small-50x50@1x.png */; };
+		6E5636CC2158E7A8009C0056 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636B02158E7A8009C0056 /* Icon-App-60x60@2x.png */; };
+		6E5636CD2158E7A8009C0056 /* Icon-App-57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636B12158E7A8009C0056 /* Icon-App-57x57@2x.png */; };
+		6E5636CE2158E7A8009C0056 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636B22158E7A8009C0056 /* Icon-App-76x76@1x.png */; };
+		6E5636CF2158E7A8009C0056 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636B32158E7A8009C0056 /* Icon-App-40x40@3x.png */; };
+		6E5636D02158E7A8009C0056 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636B42158E7A8009C0056 /* Icon-App-29x29@2x.png */; };
+		6E5636D22158E7A8009C0056 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636B62158E7A8009C0056 /* iTunesArtwork@2x.png */; };
+		6E5636D32158E7A8009C0056 /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5636B72158E7A8009C0056 /* iTunesArtwork@3x.png */; };
+		6E5CC3BB2136D80F00EC77A1 /* カメラ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E5CC3BA2136D80F00EC77A1 /* カメラ.jpg */; };
+		6E6812B92142493B003289DB /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6812B82142493B003289DB /* like.png */; };
+		6E6812BB21424941003289DB /* unlike.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6812BA21424941003289DB /* unlike.png */; };
+		6E6AA7A520F880A900DC899C /* P1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6AA7A420F880A900DC899C /* P1ViewController.swift */; };
+		6E6AA7A720F8891700DC899C /* P2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6AA7A620F8891700DC899C /* P2ViewController.swift */; };
+		6EA40F26213F096800B4244A /* autumn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EA40F1E213F096600B4244A /* autumn.jpg */; };
+		6EA40F27213F096800B4244A /* winter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EA40F1F213F096700B4244A /* winter.jpg */; };
+		6EA40F28213F096800B4244A /* ファンデ１.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EA40F20213F096700B4244A /* ファンデ１.png */; };
+		6EA40F29213F096800B4244A /* summer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EA40F21213F096700B4244A /* summer.jpg */; };
+		6EA40F2A213F096800B4244A /* icons8-口紅-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EA40F22213F096700B4244A /* icons8-口紅-26.png */; };
+		6EA40F2B213F096800B4244A /* spring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EA40F23213F096700B4244A /* spring.jpg */; };
+		6EA40F2C213F096800B4244A /* リップ.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EA40F24213F096800B4244A /* リップ.png */; };
+		6EA40F2D213F096800B4244A /* チーク１.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EA40F25213F096800B4244A /* チーク１.png */; };
+		6EA40F2F213F0AF800B4244A /* アイシャドウ１.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EA40F2E213F0AF700B4244A /* アイシャドウ１.png */; };
+		6EB248D7213534A1003CC1EA /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB248D6213534A1003CC1EA /* UIColor+RGB.swift */; };
+		6EB248D921354C90003CC1EA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB248D821354C90003CC1EA /* CoreLocation.framework */; };
+		C12C83EE213E5D5300567434 /* SliderThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C83ED213E5D5300567434 /* SliderThumb.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E09F952213CD84400DDB72C /* FoundationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationListViewController.swift; sourceTree = "<group>"; };
+		6E09F954213D27CF00DDB72C /* FoundationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationTableViewCell.swift; sourceTree = "<group>"; };
+		6E09F956213D27FC00DDB72C /* FoundationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoundationTableViewCell.xib; sourceTree = "<group>"; };
+		6E0C5EE320F7460600BCF8F5 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		6E0C5EE520F747BE00BCF8F5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6E0F8FD7213BBFA500100FCE /* ExplainWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplainWebViewController.swift; sourceTree = "<group>"; };
+		6E0F8FD9213BBFBF00100FCE /* ProductTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTypeViewController.swift; sourceTree = "<group>"; };
+		6E0F8FDB213BBFD800100FCE /* SelectSeasonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSeasonViewController.swift; sourceTree = "<group>"; };
+		6E0F8FDD213BBFEB00100FCE /* CosmeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmeListViewController.swift; sourceTree = "<group>"; };
+		6E0F9074213BC57B00100FCE /* eyeshadow-winter-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-winter-blue-min.csv"; sourceTree = "<group>"; };
+		6E0F9075213BC57B00100FCE /* eyeshadow-autumn-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-autumn-green-max.csv"; sourceTree = "<group>"; };
+		6E0F9076213BC57B00100FCE /* eyeshadow-summer-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-summer-red-max.csv"; sourceTree = "<group>"; };
+		6E0F9077213BC57B00100FCE /* lipstick-summer-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-summer-blue-max.csv"; sourceTree = "<group>"; };
+		6E0F9078213BC57B00100FCE /* lipstick-winter-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-winter-green-max.csv"; sourceTree = "<group>"; };
+		6E0F9079213BC57B00100FCE /* eyeshadow-autumn-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-autumn-red-min.csv"; sourceTree = "<group>"; };
+		6E0F907A213BC57B00100FCE /* lipstick-summer-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-summer-green-min.csv"; sourceTree = "<group>"; };
+		6E0F907B213BC57B00100FCE /* lipstick-autumn-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-autumn-blue-min.csv"; sourceTree = "<group>"; };
+		6E0F907C213BC57B00100FCE /* eyeshadow-winter-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-winter-red-min.csv"; sourceTree = "<group>"; };
+		6E0F907D213BC57B00100FCE /* lipstick-autumn-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-autumn-red-max.csv"; sourceTree = "<group>"; };
+		6E0F907E213BC57B00100FCE /* lipstick-spring-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-spring-blue-max.csv"; sourceTree = "<group>"; };
+		6E0F907F213BC57B00100FCE /* lipstick-winter-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-winter-red-max.csv"; sourceTree = "<group>"; };
+		6E0F9080213BC57B00100FCE /* lipstick-summer-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-summer-red-min.csv"; sourceTree = "<group>"; };
+		6E0F9081213BC57B00100FCE /* blush-spring-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-spring-red-min.csv"; sourceTree = "<group>"; };
+		6E0F9082213BC57B00100FCE /* blush-winter-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-winter-blue-min.csv"; sourceTree = "<group>"; };
+		6E0F9083213BC57B00100FCE /* blush-summer-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-summer-green-min.csv"; sourceTree = "<group>"; };
+		6E0F9084213BC57B00100FCE /* blush-winter-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-winter-green-max.csv"; sourceTree = "<group>"; };
+		6E0F9085213BC57B00100FCE /* eyeshadow-spring-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-spring-green-min.csv"; sourceTree = "<group>"; };
+		6E0F9086213BC57B00100FCE /* eyeshadow-autumn-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-autumn-blue-min.csv"; sourceTree = "<group>"; };
+		6E0F9087213BC57B00100FCE /* blush-spring-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-spring-blue-max.csv"; sourceTree = "<group>"; };
+		6E0F9088213BC57B00100FCE /* eyeshadow-summer-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-summer-blue-max.csv"; sourceTree = "<group>"; };
+		6E0F9089213BC57B00100FCE /* blush-autumn-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-autumn-green-min.csv"; sourceTree = "<group>"; };
+		6E0F908A213BC57B00100FCE /* lipstick-spring-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-spring-green-max.csv"; sourceTree = "<group>"; };
+		6E0F908B213BC57B00100FCE /* lipstick-spring-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-spring-red-min.csv"; sourceTree = "<group>"; };
+		6E0F908C213BC57B00100FCE /* lipstick-winter-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-winter-blue-min.csv"; sourceTree = "<group>"; };
+		6E0F908D213BC57B00100FCE /* blush-summer-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-summer-red-min.csv"; sourceTree = "<group>"; };
+		6E0F908E213BC57B00100FCE /* blush-winter-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-winter-red-max.csv"; sourceTree = "<group>"; };
+		6E0F908F213BC57B00100FCE /* blush-autumn-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-autumn-red-max.csv"; sourceTree = "<group>"; };
+		6E0F9090213BC57B00100FCE /* lipstick-autumn-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-autumn-green-min.csv"; sourceTree = "<group>"; };
+		6E0F9091213BC57B00100FCE /* eyeshadow-spring-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-spring-red-max.csv"; sourceTree = "<group>"; };
+		6E0F9092213BC57B00100FCE /* eyeshadow-winter-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-winter-green-min.csv"; sourceTree = "<group>"; };
+		6E0F9093213BC57B00100FCE /* eyeshadow-summer-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-summer-green-max.csv"; sourceTree = "<group>"; };
+		6E0F9094213BC57B00100FCE /* blush-summer-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-summer-blue-max.csv"; sourceTree = "<group>"; };
+		6E0F9095213BC57B00100FCE /* blush-autumn-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-autumn-blue-min.csv"; sourceTree = "<group>"; };
+		6E0F9096213BC57B00100FCE /* blush-spring-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-spring-green-max.csv"; sourceTree = "<group>"; };
+		6E0F9097213BC57B00100FCE /* eyeshadow-spring-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-spring-blue-max.csv"; sourceTree = "<group>"; };
+		6E0F9098213BC57B00100FCE /* eyeshadow-winter-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-winter-blue-max.csv"; sourceTree = "<group>"; };
+		6E0F9099213BC57B00100FCE /* eyeshadow-autumn-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-autumn-green-min.csv"; sourceTree = "<group>"; };
+		6E0F909A213BC57B00100FCE /* eyeshadow-summer-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-summer-red-min.csv"; sourceTree = "<group>"; };
+		6E0F909B213BC57B00100FCE /* lipstick-summer-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-summer-blue-min.csv"; sourceTree = "<group>"; };
+		6E0F909C213BC57B00100FCE /* lipstick-winter-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-winter-green-min.csv"; sourceTree = "<group>"; };
+		6E0F909D213BC57B00100FCE /* eyeshadow-autumn-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-autumn-red-max.csv"; sourceTree = "<group>"; };
+		6E0F909E213BC57B00100FCE /* lipstick-summer-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-summer-green-max.csv"; sourceTree = "<group>"; };
+		6E0F909F213BC57B00100FCE /* lipstick-autumn-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-autumn-blue-max.csv"; sourceTree = "<group>"; };
+		6E0F90A0213BC57B00100FCE /* eyeshadow-winter-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-winter-red-max.csv"; sourceTree = "<group>"; };
+		6E0F90A1213BC57B00100FCE /* lipstick-autumn-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-autumn-red-min.csv"; sourceTree = "<group>"; };
+		6E0F90A2213BC57B00100FCE /* lipstick-spring-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-spring-blue-min.csv"; sourceTree = "<group>"; };
+		6E0F90A3213BC57B00100FCE /* lipstick-winter-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-winter-red-min.csv"; sourceTree = "<group>"; };
+		6E0F90A4213BC57B00100FCE /* lipstick-summer-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-summer-red-max.csv"; sourceTree = "<group>"; };
+		6E0F90A5213BC57B00100FCE /* blush-spring-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-spring-red-max.csv"; sourceTree = "<group>"; };
+		6E0F90A6213BC57B00100FCE /* blush-winter-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-winter-blue-max.csv"; sourceTree = "<group>"; };
+		6E0F90A7213BC57B00100FCE /* blush-summer-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-summer-green-max.csv"; sourceTree = "<group>"; };
+		6E0F90A8213BC57B00100FCE /* blush-winter-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-winter-green-min.csv"; sourceTree = "<group>"; };
+		6E0F90A9213BC57C00100FCE /* eyeshadow-spring-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-spring-green-max.csv"; sourceTree = "<group>"; };
+		6E0F90AA213BC57C00100FCE /* eyeshadow-autumn-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-autumn-blue-max.csv"; sourceTree = "<group>"; };
+		6E0F90AB213BC57C00100FCE /* blush-spring-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-spring-blue-min.csv"; sourceTree = "<group>"; };
+		6E0F90AC213BC57C00100FCE /* blush-autumn-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-autumn-green-max.csv"; sourceTree = "<group>"; };
+		6E0F90AD213BC57C00100FCE /* eyeshadow-summer-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-summer-blue-min.csv"; sourceTree = "<group>"; };
+		6E0F90AE213BC57C00100FCE /* lipstick-spring-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-spring-green-min.csv"; sourceTree = "<group>"; };
+		6E0F90AF213BC57C00100FCE /* lipstick-spring-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-spring-red-max.csv"; sourceTree = "<group>"; };
+		6E0F90B0213BC57C00100FCE /* lipstick-winter-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-winter-blue-max.csv"; sourceTree = "<group>"; };
+		6E0F90B1213BC57C00100FCE /* blush-summer-red-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-summer-red-max.csv"; sourceTree = "<group>"; };
+		6E0F90B2213BC57C00100FCE /* blush-winter-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-winter-red-min.csv"; sourceTree = "<group>"; };
+		6E0F90B3213BC57C00100FCE /* blush-autumn-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-autumn-red-min.csv"; sourceTree = "<group>"; };
+		6E0F90B4213BC57C00100FCE /* lipstick-autumn-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lipstick-autumn-green-max.csv"; sourceTree = "<group>"; };
+		6E0F90B5213BC57C00100FCE /* eyeshadow-spring-red-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-spring-red-min.csv"; sourceTree = "<group>"; };
+		6E0F90B6213BC57C00100FCE /* eyeshadow-winter-green-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-winter-green-max.csv"; sourceTree = "<group>"; };
+		6E0F90B7213BC57C00100FCE /* eyeshadow-summer-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-summer-green-min.csv"; sourceTree = "<group>"; };
+		6E0F90B8213BC57C00100FCE /* blush-summer-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-summer-blue-min.csv"; sourceTree = "<group>"; };
+		6E0F90B9213BC57C00100FCE /* blush-autumn-blue-max.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-autumn-blue-max.csv"; sourceTree = "<group>"; };
+		6E0F90BA213BC57C00100FCE /* blush-spring-green-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "blush-spring-green-min.csv"; sourceTree = "<group>"; };
+		6E0F90BB213BC57C00100FCE /* eyeshadow-spring-blue-min.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eyeshadow-spring-blue-min.csv"; sourceTree = "<group>"; };
+		6E0F9104213BC5D000100FCE /* String+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extention.swift"; sourceTree = "<group>"; };
+		6E0F9108213BC71F00100FCE /* MakeUpAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeUpAPI.swift; sourceTree = "<group>"; };
+		6E0F910A213BC73400100FCE /* HexValueToRGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexValueToRGB.swift; sourceTree = "<group>"; };
+		6E0F910C213BC74800100FCE /* LoadCSVFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadCSVFile.swift; sourceTree = "<group>"; };
+		6E0F9110213BC89600100FCE /* CosmeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmeTableViewCell.swift; sourceTree = "<group>"; };
+		6E0F9112213BC8AE00100FCE /* ProductTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTypeTableViewCell.swift; sourceTree = "<group>"; };
+		6E0F9114213BC8C300100FCE /* CosmeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CosmeTableViewCell.xib; sourceTree = "<group>"; };
+		6E0F9116213BC8DE00100FCE /* ProductTypeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTypeTableViewCell.xib; sourceTree = "<group>"; };
+		6E0F9119213BCBB600100FCE /* Cosme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cosme.swift; sourceTree = "<group>"; };
+		6E10D3FC21382737006836EF /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		6E142E37211030B200A220F5 /* お気に入り.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "お気に入り.png"; sourceTree = "<group>"; };
+		6E142E3B211030D600A220F5 /* プロフィール.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "プロフィール.png"; sourceTree = "<group>"; };
+		6E142E3D211030E400A220F5 /* おすすめ１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "おすすめ１.png"; sourceTree = "<group>"; };
+		6E142E432110331300A220F5 /* タイプ診断４.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "タイプ診断４.png"; sourceTree = "<group>"; };
+		6E142E452110331D00A220F5 /* 肌状態４.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "肌状態４.png"; sourceTree = "<group>"; };
+		6E142E472110445D00A220F5 /* P7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P7ViewController.swift; sourceTree = "<group>"; };
+		6E1F2D0A21399FE50003AE9E /* P8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P8ViewController.swift; sourceTree = "<group>"; };
+		6E1F2D0C2139A0A00003AE9E /* P9ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P9ViewController.swift; sourceTree = "<group>"; };
+		6E1F735E210EC9650068EDF5 /* P6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P6ViewController.swift; sourceTree = "<group>"; };
+		6E1F7360210ED9F00068EDF5 /* spring eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spring eye.png"; sourceTree = "<group>"; };
+		6E1F7362210ED9FE0068EDF5 /* summer eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "summer eye.png"; sourceTree = "<group>"; };
+		6E1F7364210EDA080068EDF5 /* autumn eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "autumn eye.png"; sourceTree = "<group>"; };
+		6E1F7366210EDA120068EDF5 /* winter eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "winter eye.png"; sourceTree = "<group>"; };
+		6E1F7368210EDA210068EDF5 /* spring lip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spring lip.png"; sourceTree = "<group>"; };
+		6E1F736A210EDA2C0068EDF5 /* summer lip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "summer lip.png"; sourceTree = "<group>"; };
+		6E1F736E210EDA440068EDF5 /* winter lip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "winter lip.png"; sourceTree = "<group>"; };
+		6E1F7370210EDA530068EDF5 /* spring skin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spring skin.png"; sourceTree = "<group>"; };
+		6E1F7372210EDA5C0068EDF5 /* summer skin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "summer skin.png"; sourceTree = "<group>"; };
+		6E1F7374210EDA660068EDF5 /* autumn skin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "autumn skin.png"; sourceTree = "<group>"; };
+		6E1F7376210EDA710068EDF5 /* winter skin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "winter skin.png"; sourceTree = "<group>"; };
+		6E1F737C210EDB530068EDF5 /* autumn lip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "autumn lip.png"; sourceTree = "<group>"; };
+		6E1FECED215BB8090017976D /* custoMakeicon.001.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = custoMakeicon.001.jpeg; sourceTree = "<group>"; };
+		6E429EA62142CE8200FF70D2 /* LikeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeTableViewCell.swift; sourceTree = "<group>"; };
+		6E429EA82142CEA600FF70D2 /* LikeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LikeTableViewCell.xib; sourceTree = "<group>"; };
+		6E429EAA2142D41700FF70D2 /* LikeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeListViewController.swift; sourceTree = "<group>"; };
+		6E429EAC2142D8F300FF70D2 /* LikeWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeWebViewController.swift; sourceTree = "<group>"; };
 		6E4E608B20EBAA1B009BA6CE /* FittingMakeup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FittingMakeup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4E608E20EBAA1B009BA6CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E4E609020EBAA1B009BA6CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +306,58 @@
 		6E4E609520EBAA1C009BA6CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E4E609820EBAA1C009BA6CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E4E609A20EBAA1C009BA6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4E60A020EBAB49009BA6CE /* makeup1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = makeup1.png; sourceTree = "<group>"; };
+		6E4E60A420EC087F009BA6CE /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		6E502C07210953F30020B6FE /* P3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P3ViewController.swift; sourceTree = "<group>"; };
+		6E502C09210962150020B6FE /* P4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P4ViewController.swift; sourceTree = "<group>"; };
+		6E502C0B210962260020B6FE /* P5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P5ViewController.swift; sourceTree = "<group>"; };
+		6E56369B2158E7A8009C0056 /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
+		6E56369D2158E7A8009C0056 /* Icon-App-57x57@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@1x.png"; sourceTree = "<group>"; };
+		6E56369E2158E7A8009C0056 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		6E56369F2158E7A8009C0056 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		6E5636A02158E7A8009C0056 /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
+		6E5636A12158E7A8009C0056 /* Icon-Small-50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@2x.png"; sourceTree = "<group>"; };
+		6E5636A22158E7A8009C0056 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		6E5636A32158E7A8009C0056 /* Icon-App-76x76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@3x.png"; sourceTree = "<group>"; };
+		6E5636A42158E7A8009C0056 /* Icon-App-72x72@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@1x.png"; sourceTree = "<group>"; };
+		6E5636A52158E7A8009C0056 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		6E5636A62158E7A8009C0056 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		6E5636A72158E7A8009C0056 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		6E5636A82158E7A8009C0056 /* ItunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ItunesArtwork@2x.png"; sourceTree = "<group>"; };
+		6E5636A92158E7A8009C0056 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		6E5636AA2158E7A8009C0056 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		6E5636AB2158E7A8009C0056 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		6E5636AC2158E7A8009C0056 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		6E5636AD2158E7A8009C0056 /* Icon-App-72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@2x.png"; sourceTree = "<group>"; };
+		6E5636AE2158E7A8009C0056 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		6E5636AF2158E7A8009C0056 /* Icon-Small-50x50@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@1x.png"; sourceTree = "<group>"; };
+		6E5636B02158E7A8009C0056 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		6E5636B12158E7A8009C0056 /* Icon-App-57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@2x.png"; sourceTree = "<group>"; };
+		6E5636B22158E7A8009C0056 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		6E5636B32158E7A8009C0056 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		6E5636B42158E7A8009C0056 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		6E5636B62158E7A8009C0056 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		6E5636B72158E7A8009C0056 /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
+		6E5CC3BA2136D80F00EC77A1 /* カメラ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "カメラ.jpg"; sourceTree = "<group>"; };
+		6E6812B82142493B003289DB /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		6E6812BA21424941003289DB /* unlike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unlike.png; sourceTree = "<group>"; };
+		6E6AA7A420F880A900DC899C /* P1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P1ViewController.swift; sourceTree = "<group>"; };
+		6E6AA7A620F8891700DC899C /* P2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2ViewController.swift; sourceTree = "<group>"; };
+		6EA40F1E213F096600B4244A /* autumn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = autumn.jpg; sourceTree = "<group>"; };
+		6EA40F1F213F096700B4244A /* winter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = winter.jpg; sourceTree = "<group>"; };
+		6EA40F20213F096700B4244A /* ファンデ１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ファンデ１.png"; sourceTree = "<group>"; };
+		6EA40F21213F096700B4244A /* summer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = summer.jpg; sourceTree = "<group>"; };
+		6EA40F22213F096700B4244A /* icons8-口紅-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-口紅-26.png"; sourceTree = "<group>"; };
+		6EA40F23213F096700B4244A /* spring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spring.jpg; sourceTree = "<group>"; };
+		6EA40F24213F096800B4244A /* リップ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "リップ.png"; sourceTree = "<group>"; };
+		6EA40F25213F096800B4244A /* チーク１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "チーク１.png"; sourceTree = "<group>"; };
+		6EA40F2E213F0AF700B4244A /* アイシャドウ１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アイシャドウ１.png"; sourceTree = "<group>"; };
+		6EB248D6213534A1003CC1EA /* UIColor+RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+RGB.swift"; sourceTree = "<group>"; };
+		6EB248D821354C90003CC1EA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A6469AB450B43C5EE4023349 /* Pods_FittingMakeup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FittingMakeup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12C83ED213E5D5300567434 /* SliderThumb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderThumb.swift; sourceTree = "<group>"; };
+		C4AB3AF739EA7D4113309084 /* Pods-FittingMakeup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FittingMakeup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FittingMakeup/Pods-FittingMakeup.debug.xcconfig"; sourceTree = "<group>"; };
+		EAFD65BB7FB3848BB4AE8726 /* Pods-FittingMakeup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FittingMakeup.release.xcconfig"; path = "Pods/Target Support Files/Pods-FittingMakeup/Pods-FittingMakeup.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +365,238 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EB248D921354C90003CC1EA /* CoreLocation.framework in Frameworks */,
+				53850B47278C81A14668E2CB /* Pods_FittingMakeup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E0F8FD2213BB4E000100FCE /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				6E4E60A420EC087F009BA6CE /* SignIn.storyboard */,
+				6E4E609220EBAA1B009BA6CE /* Main.storyboard */,
+				6E4E609720EBAA1C009BA6CE /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		6E0F8FD4213BB53900100FCE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E0F9073213BC57B00100FCE /* csv */,
+				6E1F7378210EDA860068EDF5 /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6E0F8FE0213BC00B00100FCE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E4E609020EBAA1B009BA6CE /* ViewController.swift */,
+				6E0C5EE520F747BE00BCF8F5 /* SignUpViewController.swift */,
+				6E0C5EE320F7460600BCF8F5 /* SignInViewController.swift */,
+				6E6AA7A420F880A900DC899C /* P1ViewController.swift */,
+				6E6AA7A620F8891700DC899C /* P2ViewController.swift */,
+				6E502C07210953F30020B6FE /* P3ViewController.swift */,
+				6E502C09210962150020B6FE /* P4ViewController.swift */,
+				6E502C0B210962260020B6FE /* P5ViewController.swift */,
+				6E1F735E210EC9650068EDF5 /* P6ViewController.swift */,
+				6E142E472110445D00A220F5 /* P7ViewController.swift */,
+				6E1F2D0A21399FE50003AE9E /* P8ViewController.swift */,
+				6E1F2D0C2139A0A00003AE9E /* P9ViewController.swift */,
+				6E429EAA2142D41700FF70D2 /* LikeListViewController.swift */,
+				6E0F8FD7213BBFA500100FCE /* ExplainWebViewController.swift */,
+				6E0F8FD9213BBFBF00100FCE /* ProductTypeViewController.swift */,
+				6E0F8FDB213BBFD800100FCE /* SelectSeasonViewController.swift */,
+				6E0F8FDD213BBFEB00100FCE /* CosmeListViewController.swift */,
+				6E429EAC2142D8F300FF70D2 /* LikeWebViewController.swift */,
+				6E09F952213CD84400DDB72C /* FoundationListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6E0F9073213BC57B00100FCE /* csv */ = {
+			isa = PBXGroup;
+			children = (
+				6E0F9074213BC57B00100FCE /* eyeshadow-winter-blue-min.csv */,
+				6E0F9075213BC57B00100FCE /* eyeshadow-autumn-green-max.csv */,
+				6E0F9076213BC57B00100FCE /* eyeshadow-summer-red-max.csv */,
+				6E0F9077213BC57B00100FCE /* lipstick-summer-blue-max.csv */,
+				6E0F9078213BC57B00100FCE /* lipstick-winter-green-max.csv */,
+				6E0F9079213BC57B00100FCE /* eyeshadow-autumn-red-min.csv */,
+				6E0F907A213BC57B00100FCE /* lipstick-summer-green-min.csv */,
+				6E0F907B213BC57B00100FCE /* lipstick-autumn-blue-min.csv */,
+				6E0F907C213BC57B00100FCE /* eyeshadow-winter-red-min.csv */,
+				6E0F907D213BC57B00100FCE /* lipstick-autumn-red-max.csv */,
+				6E0F907E213BC57B00100FCE /* lipstick-spring-blue-max.csv */,
+				6E0F907F213BC57B00100FCE /* lipstick-winter-red-max.csv */,
+				6E0F9080213BC57B00100FCE /* lipstick-summer-red-min.csv */,
+				6E0F9081213BC57B00100FCE /* blush-spring-red-min.csv */,
+				6E0F9082213BC57B00100FCE /* blush-winter-blue-min.csv */,
+				6E0F9083213BC57B00100FCE /* blush-summer-green-min.csv */,
+				6E0F9084213BC57B00100FCE /* blush-winter-green-max.csv */,
+				6E0F9085213BC57B00100FCE /* eyeshadow-spring-green-min.csv */,
+				6E0F9086213BC57B00100FCE /* eyeshadow-autumn-blue-min.csv */,
+				6E0F9087213BC57B00100FCE /* blush-spring-blue-max.csv */,
+				6E0F9088213BC57B00100FCE /* eyeshadow-summer-blue-max.csv */,
+				6E0F9089213BC57B00100FCE /* blush-autumn-green-min.csv */,
+				6E0F908A213BC57B00100FCE /* lipstick-spring-green-max.csv */,
+				6E0F908B213BC57B00100FCE /* lipstick-spring-red-min.csv */,
+				6E0F908C213BC57B00100FCE /* lipstick-winter-blue-min.csv */,
+				6E0F908D213BC57B00100FCE /* blush-summer-red-min.csv */,
+				6E0F908E213BC57B00100FCE /* blush-winter-red-max.csv */,
+				6E0F908F213BC57B00100FCE /* blush-autumn-red-max.csv */,
+				6E0F9090213BC57B00100FCE /* lipstick-autumn-green-min.csv */,
+				6E0F9091213BC57B00100FCE /* eyeshadow-spring-red-max.csv */,
+				6E0F9092213BC57B00100FCE /* eyeshadow-winter-green-min.csv */,
+				6E0F9093213BC57B00100FCE /* eyeshadow-summer-green-max.csv */,
+				6E0F9094213BC57B00100FCE /* blush-summer-blue-max.csv */,
+				6E0F9095213BC57B00100FCE /* blush-autumn-blue-min.csv */,
+				6E0F9096213BC57B00100FCE /* blush-spring-green-max.csv */,
+				6E0F9097213BC57B00100FCE /* eyeshadow-spring-blue-max.csv */,
+				6E0F9098213BC57B00100FCE /* eyeshadow-winter-blue-max.csv */,
+				6E0F9099213BC57B00100FCE /* eyeshadow-autumn-green-min.csv */,
+				6E0F909A213BC57B00100FCE /* eyeshadow-summer-red-min.csv */,
+				6E0F909B213BC57B00100FCE /* lipstick-summer-blue-min.csv */,
+				6E0F909C213BC57B00100FCE /* lipstick-winter-green-min.csv */,
+				6E0F909D213BC57B00100FCE /* eyeshadow-autumn-red-max.csv */,
+				6E0F909E213BC57B00100FCE /* lipstick-summer-green-max.csv */,
+				6E0F909F213BC57B00100FCE /* lipstick-autumn-blue-max.csv */,
+				6E0F90A0213BC57B00100FCE /* eyeshadow-winter-red-max.csv */,
+				6E0F90A1213BC57B00100FCE /* lipstick-autumn-red-min.csv */,
+				6E0F90A2213BC57B00100FCE /* lipstick-spring-blue-min.csv */,
+				6E0F90A3213BC57B00100FCE /* lipstick-winter-red-min.csv */,
+				6E0F90A4213BC57B00100FCE /* lipstick-summer-red-max.csv */,
+				6E0F90A5213BC57B00100FCE /* blush-spring-red-max.csv */,
+				6E0F90A6213BC57B00100FCE /* blush-winter-blue-max.csv */,
+				6E0F90A7213BC57B00100FCE /* blush-summer-green-max.csv */,
+				6E0F90A8213BC57B00100FCE /* blush-winter-green-min.csv */,
+				6E0F90A9213BC57C00100FCE /* eyeshadow-spring-green-max.csv */,
+				6E0F90AA213BC57C00100FCE /* eyeshadow-autumn-blue-max.csv */,
+				6E0F90AB213BC57C00100FCE /* blush-spring-blue-min.csv */,
+				6E0F90AC213BC57C00100FCE /* blush-autumn-green-max.csv */,
+				6E0F90AD213BC57C00100FCE /* eyeshadow-summer-blue-min.csv */,
+				6E0F90AE213BC57C00100FCE /* lipstick-spring-green-min.csv */,
+				6E0F90AF213BC57C00100FCE /* lipstick-spring-red-max.csv */,
+				6E0F90B0213BC57C00100FCE /* lipstick-winter-blue-max.csv */,
+				6E0F90B1213BC57C00100FCE /* blush-summer-red-max.csv */,
+				6E0F90B2213BC57C00100FCE /* blush-winter-red-min.csv */,
+				6E0F90B3213BC57C00100FCE /* blush-autumn-red-min.csv */,
+				6E0F90B4213BC57C00100FCE /* lipstick-autumn-green-max.csv */,
+				6E0F90B5213BC57C00100FCE /* eyeshadow-spring-red-min.csv */,
+				6E0F90B6213BC57C00100FCE /* eyeshadow-winter-green-max.csv */,
+				6E0F90B7213BC57C00100FCE /* eyeshadow-summer-green-min.csv */,
+				6E0F90B8213BC57C00100FCE /* blush-summer-blue-min.csv */,
+				6E0F90B9213BC57C00100FCE /* blush-autumn-blue-max.csv */,
+				6E0F90BA213BC57C00100FCE /* blush-spring-green-min.csv */,
+				6E0F90BB213BC57C00100FCE /* eyeshadow-spring-blue-min.csv */,
+			);
+			path = csv;
+			sourceTree = "<group>";
+		};
+		6E0F9106213BC5D500100FCE /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				6E0F9104213BC5D000100FCE /* String+Extention.swift */,
+				6EB248D6213534A1003CC1EA /* UIColor+RGB.swift */,
+				C12C83ED213E5D5300567434 /* SliderThumb.swift */,
+				6E10D3FC21382737006836EF /* StarView.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		6E0F9107213BC6CD00100FCE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6E0F9108213BC71F00100FCE /* MakeUpAPI.swift */,
+				6E0F910A213BC73400100FCE /* HexValueToRGB.swift */,
+				6E0F910C213BC74800100FCE /* LoadCSVFile.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		6E0F910E213BC7E500100FCE /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				6E0F9118213BCB8300100FCE /* Models */,
+				6E0F910F213BC80E00100FCE /* Cells */,
+				6E0F8FD2213BB4E000100FCE /* StoryBoard */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		6E0F910F213BC80E00100FCE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6E0F9110213BC89600100FCE /* CosmeTableViewCell.swift */,
+				6E429EA62142CE8200FF70D2 /* LikeTableViewCell.swift */,
+				6E09F954213D27CF00DDB72C /* FoundationTableViewCell.swift */,
+				6E0F9112213BC8AE00100FCE /* ProductTypeTableViewCell.swift */,
+				6E0F9114213BC8C300100FCE /* CosmeTableViewCell.xib */,
+				6E09F956213D27FC00DDB72C /* FoundationTableViewCell.xib */,
+				6E429EA82142CEA600FF70D2 /* LikeTableViewCell.xib */,
+				6E0F9116213BC8DE00100FCE /* ProductTypeTableViewCell.xib */,
+			);
+			name = Cells;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6E0F9118213BCB8300100FCE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6E0F9119213BCBB600100FCE /* Cosme.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6E1F7378210EDA860068EDF5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6EA40F1E213F096600B4244A /* autumn.jpg */,
+				6EA40F22213F096700B4244A /* icons8-口紅-26.png */,
+				6EA40F23213F096700B4244A /* spring.jpg */,
+				6EA40F21213F096700B4244A /* summer.jpg */,
+				6EA40F2E213F0AF700B4244A /* アイシャドウ１.png */,
+				6EA40F1F213F096700B4244A /* winter.jpg */,
+				6EA40F25213F096800B4244A /* チーク１.png */,
+				6EA40F20213F096700B4244A /* ファンデ１.png */,
+				6EA40F24213F096800B4244A /* リップ.png */,
+				6E142E3B211030D600A220F5 /* プロフィール.png */,
+				6E5CC3BA2136D80F00EC77A1 /* カメラ.jpg */,
+				6E142E432110331300A220F5 /* タイプ診断４.png */,
+				6E142E3D211030E400A220F5 /* おすすめ１.png */,
+				6E142E452110331D00A220F5 /* 肌状態４.png */,
+				6E142E37211030B200A220F5 /* お気に入り.png */,
+				6E4E60A020EBAB49009BA6CE /* makeup1.png */,
+				6E1F7360210ED9F00068EDF5 /* spring eye.png */,
+				6E1F7362210ED9FE0068EDF5 /* summer eye.png */,
+				6E1F7364210EDA080068EDF5 /* autumn eye.png */,
+				6E1F7366210EDA120068EDF5 /* winter eye.png */,
+				6E1F7368210EDA210068EDF5 /* spring lip.png */,
+				6E1F736A210EDA2C0068EDF5 /* summer lip.png */,
+				6E1F737C210EDB530068EDF5 /* autumn lip.png */,
+				6E1F736E210EDA440068EDF5 /* winter lip.png */,
+				6E1F7370210EDA530068EDF5 /* spring skin.png */,
+				6E1F7372210EDA5C0068EDF5 /* summer skin.png */,
+				6E1F7374210EDA660068EDF5 /* autumn skin.png */,
+				6E1F7376210EDA710068EDF5 /* winter skin.png */,
+				6E6812B82142493B003289DB /* like.png */,
+				6E6812BA21424941003289DB /* unlike.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		6E4E608220EBAA1B009BA6CE = {
 			isa = PBXGroup;
 			children = (
 				6E4E608D20EBAA1B009BA6CE /* FittingMakeup */,
 				6E4E608C20EBAA1B009BA6CE /* Products */,
+				6E0F910E213BC7E500100FCE /* Commons */,
+				9D649D666B72D1743931F92C /* Pods */,
+				E00887FB3113667B126C335E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +611,77 @@
 		6E4E608D20EBAA1B009BA6CE /* FittingMakeup */ = {
 			isa = PBXGroup;
 			children = (
+				6E0F8FD4213BB53900100FCE /* Resources */,
+				6E56369A2158E7A8009C0056 /* ios */,
 				6E4E608E20EBAA1B009BA6CE /* AppDelegate.swift */,
-				6E4E609020EBAA1B009BA6CE /* ViewController.swift */,
-				6E4E609220EBAA1B009BA6CE /* Main.storyboard */,
+				6E0F9106213BC5D500100FCE /* Extention */,
+				6E0F8FE0213BC00B00100FCE /* Controllers */,
+				6E0F9107213BC6CD00100FCE /* Managers */,
 				6E4E609520EBAA1C009BA6CE /* Assets.xcassets */,
-				6E4E609720EBAA1C009BA6CE /* LaunchScreen.storyboard */,
 				6E4E609A20EBAA1C009BA6CE /* Info.plist */,
 			);
 			path = FittingMakeup;
+			sourceTree = "<group>";
+		};
+		6E56369A2158E7A8009C0056 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				6E56369B2158E7A8009C0056 /* iTunesArtwork@1x.png */,
+				6E5636B62158E7A8009C0056 /* iTunesArtwork@2x.png */,
+				6E5636B72158E7A8009C0056 /* iTunesArtwork@3x.png */,
+				6E1FECED215BB8090017976D /* custoMakeicon.001.jpeg */,
+				6E56369C2158E7A8009C0056 /* AppIcon.appiconset */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		6E56369C2158E7A8009C0056 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				6E56369D2158E7A8009C0056 /* Icon-App-57x57@1x.png */,
+				6E56369E2158E7A8009C0056 /* Icon-App-76x76@2x.png */,
+				6E56369F2158E7A8009C0056 /* Icon-App-29x29@1x.png */,
+				6E5636A02158E7A8009C0056 /* Icon-App-60x60@1x.png */,
+				6E5636A12158E7A8009C0056 /* Icon-Small-50x50@2x.png */,
+				6E5636A22158E7A8009C0056 /* Icon-App-40x40@1x.png */,
+				6E5636A32158E7A8009C0056 /* Icon-App-76x76@3x.png */,
+				6E5636A42158E7A8009C0056 /* Icon-App-72x72@1x.png */,
+				6E5636A52158E7A8009C0056 /* Icon-App-20x20@1x.png */,
+				6E5636A62158E7A8009C0056 /* Icon-App-83.5x83.5@2x.png */,
+				6E5636A72158E7A8009C0056 /* Icon-App-20x20@3x.png */,
+				6E5636A82158E7A8009C0056 /* ItunesArtwork@2x.png */,
+				6E5636A92158E7A8009C0056 /* Contents.json */,
+				6E5636AA2158E7A8009C0056 /* Icon-App-20x20@2x.png */,
+				6E5636AB2158E7A8009C0056 /* Icon-App-29x29@3x.png */,
+				6E5636AC2158E7A8009C0056 /* Icon-App-40x40@2x.png */,
+				6E5636AD2158E7A8009C0056 /* Icon-App-72x72@2x.png */,
+				6E5636AE2158E7A8009C0056 /* Icon-App-60x60@3x.png */,
+				6E5636AF2158E7A8009C0056 /* Icon-Small-50x50@1x.png */,
+				6E5636B02158E7A8009C0056 /* Icon-App-60x60@2x.png */,
+				6E5636B12158E7A8009C0056 /* Icon-App-57x57@2x.png */,
+				6E5636B22158E7A8009C0056 /* Icon-App-76x76@1x.png */,
+				6E5636B32158E7A8009C0056 /* Icon-App-40x40@3x.png */,
+				6E5636B42158E7A8009C0056 /* Icon-App-29x29@2x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		9D649D666B72D1743931F92C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4AB3AF739EA7D4113309084 /* Pods-FittingMakeup.debug.xcconfig */,
+				EAFD65BB7FB3848BB4AE8726 /* Pods-FittingMakeup.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E00887FB3113667B126C335E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EB248D821354C90003CC1EA /* CoreLocation.framework */,
+				A6469AB450B43C5EE4023349 /* Pods_FittingMakeup.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +691,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E4E609D20EBAA1C009BA6CE /* Build configuration list for PBXNativeTarget "FittingMakeup" */;
 			buildPhases = (
+				D865C754BAF2BBEF02484811 /* [CP] Check Pods Manifest.lock */,
 				6E4E608720EBAA1B009BA6CE /* Sources */,
 				6E4E608820EBAA1B009BA6CE /* Frameworks */,
 				6E4E608920EBAA1B009BA6CE /* Resources */,
+				4C64F3224ADED3C487F40912 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,20 +745,242 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E4E609920EBAA1C009BA6CE /* LaunchScreen.storyboard in Resources */,
+				6E0F9115213BC8C300100FCE /* CosmeTableViewCell.xib in Resources */,
+				6E0F9100213BC57C00100FCE /* blush-summer-blue-min.csv in Resources */,
+				6E5636C52158E7A8009C0056 /* Contents.json in Resources */,
+				6E0F90C7213BC57C00100FCE /* lipstick-winter-red-max.csv in Resources */,
+				6E1F7375210EDA660068EDF5 /* autumn skin.png in Resources */,
+				6E0F90DD213BC57C00100FCE /* blush-autumn-blue-min.csv in Resources */,
+				6EA40F2D213F096800B4244A /* チーク１.png in Resources */,
+				6E0F90D6213BC57C00100FCE /* blush-winter-red-max.csv in Resources */,
+				6E0F90D4213BC57C00100FCE /* lipstick-winter-blue-min.csv in Resources */,
+				6E0F90DF213BC57C00100FCE /* eyeshadow-spring-blue-max.csv in Resources */,
+				6E429EA92142CEA600FF70D2 /* LikeTableViewCell.xib in Resources */,
+				6E5636C42158E7A8009C0056 /* ItunesArtwork@2x.png in Resources */,
+				6E0F90F2213BC57C00100FCE /* eyeshadow-autumn-blue-max.csv in Resources */,
+				6E0F90CA213BC57C00100FCE /* blush-winter-blue-min.csv in Resources */,
+				6E0F9101213BC57C00100FCE /* blush-autumn-blue-max.csv in Resources */,
+				6E0F90FF213BC57C00100FCE /* eyeshadow-summer-green-min.csv in Resources */,
+				6E5CC3BB2136D80F00EC77A1 /* カメラ.jpg in Resources */,
+				6E0F90CE213BC57C00100FCE /* eyeshadow-autumn-blue-min.csv in Resources */,
+				6E0F90C1213BC57C00100FCE /* eyeshadow-autumn-red-min.csv in Resources */,
+				6E0F90F0213BC57C00100FCE /* blush-winter-green-min.csv in Resources */,
+				6E5636C02158E7A8009C0056 /* Icon-App-72x72@1x.png in Resources */,
+				6E0F90BF213BC57C00100FCE /* lipstick-summer-blue-max.csv in Resources */,
+				6E0F90FC213BC57C00100FCE /* lipstick-autumn-green-max.csv in Resources */,
+				6E1F7377210EDA710068EDF5 /* winter skin.png in Resources */,
+				6E0F90DB213BC57C00100FCE /* eyeshadow-summer-green-max.csv in Resources */,
+				6E1F736B210EDA2C0068EDF5 /* summer lip.png in Resources */,
+				6E1F7371210EDA530068EDF5 /* spring skin.png in Resources */,
+				6E0F90CD213BC57C00100FCE /* eyeshadow-spring-green-min.csv in Resources */,
+				6E0F90ED213BC57C00100FCE /* blush-spring-red-max.csv in Resources */,
+				6E0F90E0213BC57C00100FCE /* eyeshadow-winter-blue-max.csv in Resources */,
+				6E0F90E1213BC57C00100FCE /* eyeshadow-autumn-green-min.csv in Resources */,
+				6E0F90D1213BC57C00100FCE /* blush-autumn-green-min.csv in Resources */,
+				6E142E442110331400A220F5 /* タイプ診断４.png in Resources */,
+				6E0F90DE213BC57C00100FCE /* blush-spring-green-max.csv in Resources */,
+				6E0F9117213BC8DE00100FCE /* ProductTypeTableViewCell.xib in Resources */,
+				6E5636BE2158E7A8009C0056 /* Icon-App-40x40@1x.png in Resources */,
+				6EA40F26213F096800B4244A /* autumn.jpg in Resources */,
+				6E0F90C3213BC57C00100FCE /* lipstick-autumn-blue-min.csv in Resources */,
+				6E0F90CF213BC57C00100FCE /* blush-spring-blue-max.csv in Resources */,
+				6E0F90F9213BC57C00100FCE /* blush-summer-red-max.csv in Resources */,
+				6E0F90C0213BC57C00100FCE /* lipstick-winter-green-max.csv in Resources */,
+				6E0F90F6213BC57C00100FCE /* lipstick-spring-green-min.csv in Resources */,
+				6E0F90D7213BC57C00100FCE /* blush-autumn-red-max.csv in Resources */,
+				6E0F90C5213BC57C00100FCE /* lipstick-autumn-red-max.csv in Resources */,
+				6EA40F2B213F096800B4244A /* spring.jpg in Resources */,
+				6E5636D32158E7A8009C0056 /* iTunesArtwork@3x.png in Resources */,
+				6E5636CC2158E7A8009C0056 /* Icon-App-60x60@2x.png in Resources */,
+				6EA40F2F213F0AF800B4244A /* アイシャドウ１.png in Resources */,
+				6EA40F28213F096800B4244A /* ファンデ１.png in Resources */,
+				6E0F90E7213BC57C00100FCE /* lipstick-autumn-blue-max.csv in Resources */,
+				6EA40F2C213F096800B4244A /* リップ.png in Resources */,
+				6E0F90D5213BC57C00100FCE /* blush-summer-red-min.csv in Resources */,
+				6E0F90E6213BC57C00100FCE /* lipstick-summer-green-max.csv in Resources */,
+				6E0F90D3213BC57C00100FCE /* lipstick-spring-red-min.csv in Resources */,
+				6E0F90DC213BC57C00100FCE /* blush-summer-blue-max.csv in Resources */,
+				6E0F90F4213BC57C00100FCE /* blush-autumn-green-max.csv in Resources */,
+				6E1F7373210EDA5C0068EDF5 /* summer skin.png in Resources */,
+				6E09F957213D27FC00DDB72C /* FoundationTableViewCell.xib in Resources */,
+				6E0F90F1213BC57C00100FCE /* eyeshadow-spring-green-max.csv in Resources */,
+				6E0F90E2213BC57C00100FCE /* eyeshadow-summer-red-min.csv in Resources */,
+				6E0F90EB213BC57C00100FCE /* lipstick-winter-red-min.csv in Resources */,
+				6E0F9103213BC57C00100FCE /* eyeshadow-spring-blue-min.csv in Resources */,
+				6E4E60A520EC087F009BA6CE /* SignIn.storyboard in Resources */,
+				6E1F736F210EDA440068EDF5 /* winter lip.png in Resources */,
+				6E5636BB2158E7A8009C0056 /* Icon-App-29x29@1x.png in Resources */,
+				6E5636C92158E7A8009C0056 /* Icon-App-72x72@2x.png in Resources */,
+				6E0F90CC213BC57C00100FCE /* blush-winter-green-max.csv in Resources */,
+				6EA40F27213F096800B4244A /* winter.jpg in Resources */,
+				6E0F90E3213BC57C00100FCE /* lipstick-summer-blue-min.csv in Resources */,
+				6E0F90D8213BC57C00100FCE /* lipstick-autumn-green-min.csv in Resources */,
+				6E0F90D0213BC57C00100FCE /* eyeshadow-summer-blue-max.csv in Resources */,
+				6E0F90E4213BC57C00100FCE /* lipstick-winter-green-min.csv in Resources */,
 				6E4E609620EBAA1C009BA6CE /* Assets.xcassets in Resources */,
+				6E0F90EE213BC57C00100FCE /* blush-winter-blue-max.csv in Resources */,
+				6E1F7369210EDA210068EDF5 /* spring lip.png in Resources */,
+				6E1FECEE215BB80A0017976D /* custoMakeicon.001.jpeg in Resources */,
+				6E0F90F3213BC57C00100FCE /* blush-spring-blue-min.csv in Resources */,
+				6E5636BA2158E7A8009C0056 /* Icon-App-76x76@2x.png in Resources */,
+				6E5636B92158E7A8009C0056 /* Icon-App-57x57@1x.png in Resources */,
+				6E0F90FB213BC57C00100FCE /* blush-autumn-red-min.csv in Resources */,
+				6E1F7363210ED9FE0068EDF5 /* summer eye.png in Resources */,
+				6E5636C22158E7A8009C0056 /* Icon-App-83.5x83.5@2x.png in Resources */,
+				6E0F90CB213BC57C00100FCE /* blush-summer-green-min.csv in Resources */,
+				6E0F90E8213BC57C00100FCE /* eyeshadow-winter-red-max.csv in Resources */,
+				6E1F737D210EDB530068EDF5 /* autumn lip.png in Resources */,
+				6E0F90F8213BC57C00100FCE /* lipstick-winter-blue-max.csv in Resources */,
+				6E1F7367210EDA120068EDF5 /* winter eye.png in Resources */,
+				6E6812BB21424941003289DB /* unlike.png in Resources */,
+				6E5636CF2158E7A8009C0056 /* Icon-App-40x40@3x.png in Resources */,
+				6E5636BF2158E7A8009C0056 /* Icon-App-76x76@3x.png in Resources */,
+				6E0F90E9213BC57C00100FCE /* lipstick-autumn-red-min.csv in Resources */,
+				6E0F90C4213BC57C00100FCE /* eyeshadow-winter-red-min.csv in Resources */,
+				6E5636C62158E7A8009C0056 /* Icon-App-20x20@2x.png in Resources */,
+				6E0F90D9213BC57C00100FCE /* eyeshadow-spring-red-max.csv in Resources */,
+				6E0F90FA213BC57C00100FCE /* blush-winter-red-min.csv in Resources */,
+				6E0F90C9213BC57C00100FCE /* blush-spring-red-min.csv in Resources */,
+				6E5636C32158E7A8009C0056 /* Icon-App-20x20@3x.png in Resources */,
+				6EA40F29213F096800B4244A /* summer.jpg in Resources */,
+				6E0F90EC213BC57C00100FCE /* lipstick-summer-red-max.csv in Resources */,
+				6E0F90BE213BC57C00100FCE /* eyeshadow-summer-red-max.csv in Resources */,
+				6E142E462110331D00A220F5 /* 肌状態４.png in Resources */,
+				6E0F90C6213BC57C00100FCE /* lipstick-spring-blue-max.csv in Resources */,
+				6E142E38211030B300A220F5 /* お気に入り.png in Resources */,
+				6E0F90E5213BC57C00100FCE /* eyeshadow-autumn-red-max.csv in Resources */,
+				6EA40F2A213F096800B4244A /* icons8-口紅-26.png in Resources */,
+				6E4E60A120EBAB49009BA6CE /* makeup1.png in Resources */,
+				6E0F90F5213BC57C00100FCE /* eyeshadow-summer-blue-min.csv in Resources */,
+				6E142E3C211030D600A220F5 /* プロフィール.png in Resources */,
+				6E5636CA2158E7A8009C0056 /* Icon-App-60x60@3x.png in Resources */,
+				6E5636CE2158E7A8009C0056 /* Icon-App-76x76@1x.png in Resources */,
+				6E0F90BD213BC57C00100FCE /* eyeshadow-autumn-green-max.csv in Resources */,
+				6E142E3E211030E400A220F5 /* おすすめ１.png in Resources */,
 				6E4E609420EBAA1B009BA6CE /* Main.storyboard in Resources */,
+				6E5636D22158E7A8009C0056 /* iTunesArtwork@2x.png in Resources */,
+				6E5636C72158E7A8009C0056 /* Icon-App-29x29@3x.png in Resources */,
+				6E0F90EA213BC57C00100FCE /* lipstick-spring-blue-min.csv in Resources */,
+				6E0F90FE213BC57C00100FCE /* eyeshadow-winter-green-max.csv in Resources */,
+				6E0F90C2213BC57C00100FCE /* lipstick-summer-green-min.csv in Resources */,
+				6E0F90BC213BC57C00100FCE /* eyeshadow-winter-blue-min.csv in Resources */,
+				6E1F7365210EDA080068EDF5 /* autumn eye.png in Resources */,
+				6E1F7361210ED9F00068EDF5 /* spring eye.png in Resources */,
+				6E6812B92142493B003289DB /* like.png in Resources */,
+				6E5636BC2158E7A8009C0056 /* Icon-App-60x60@1x.png in Resources */,
+				6E0F90C8213BC57C00100FCE /* lipstick-summer-red-min.csv in Resources */,
+				6E5636CB2158E7A8009C0056 /* Icon-Small-50x50@1x.png in Resources */,
+				6E0F90F7213BC57C00100FCE /* lipstick-spring-red-max.csv in Resources */,
+				6E5636CD2158E7A8009C0056 /* Icon-App-57x57@2x.png in Resources */,
+				6E5636D02158E7A8009C0056 /* Icon-App-29x29@2x.png in Resources */,
+				6E0F9102213BC57C00100FCE /* blush-spring-green-min.csv in Resources */,
+				6E5636C82158E7A8009C0056 /* Icon-App-40x40@2x.png in Resources */,
+				6E5636C12158E7A8009C0056 /* Icon-App-20x20@1x.png in Resources */,
+				6E5636BD2158E7A8009C0056 /* Icon-Small-50x50@2x.png in Resources */,
+				6E0F90DA213BC57C00100FCE /* eyeshadow-winter-green-min.csv in Resources */,
+				6E0F90FD213BC57C00100FCE /* eyeshadow-spring-red-min.csv in Resources */,
+				6E0F90EF213BC57C00100FCE /* blush-summer-green-max.csv in Resources */,
+				6E5636B82158E7A8009C0056 /* iTunesArtwork@1x.png in Resources */,
+				6E0F90D2213BC57C00100FCE /* lipstick-spring-green-max.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C64F3224ADED3C487F40912 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FittingMakeup/Pods-FittingMakeup-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AMChart/AMChart.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesomeKit/FontAwesomeKit.framework",
+				"${BUILT_PRODUCTS_DIR}/NCMB/NCMB.framework",
+				"${BUILT_PRODUCTS_DIR}/NYXImagesKit/NYXImagesKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AMChart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesomeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NCMB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NYXImagesKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FittingMakeup/Pods-FittingMakeup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D865C754BAF2BBEF02484811 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FittingMakeup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6E4E608720EBAA1B009BA6CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E6AA7A720F8891700DC899C /* P2ViewController.swift in Sources */,
+				6E1F2D0D2139A0A00003AE9E /* P9ViewController.swift in Sources */,
+				6E09F953213CD84400DDB72C /* FoundationListViewController.swift in Sources */,
+				6E502C08210953F30020B6FE /* P3ViewController.swift in Sources */,
+				6E0F910D213BC74800100FCE /* LoadCSVFile.swift in Sources */,
+				6E10D3FD21382737006836EF /* StarView.swift in Sources */,
+				6E0F9111213BC89600100FCE /* CosmeTableViewCell.swift in Sources */,
+				6E0F8FDC213BBFD800100FCE /* SelectSeasonViewController.swift in Sources */,
+				6E502C0C210962260020B6FE /* P5ViewController.swift in Sources */,
+				6E0C5EE420F7460600BCF8F5 /* SignInViewController.swift in Sources */,
+				6E429EAB2142D41700FF70D2 /* LikeListViewController.swift in Sources */,
+				6E09F955213D27CF00DDB72C /* FoundationTableViewCell.swift in Sources */,
+				6E1F735F210EC9650068EDF5 /* P6ViewController.swift in Sources */,
+				6E0F8FD8213BBFA500100FCE /* ExplainWebViewController.swift in Sources */,
+				C12C83EE213E5D5300567434 /* SliderThumb.swift in Sources */,
+				6E6AA7A520F880A900DC899C /* P1ViewController.swift in Sources */,
+				6E502C0A210962150020B6FE /* P4ViewController.swift in Sources */,
+				6E0F9109213BC71F00100FCE /* MakeUpAPI.swift in Sources */,
+				6E1F2D0B21399FE50003AE9E /* P8ViewController.swift in Sources */,
+				6E429EA72142CE8200FF70D2 /* LikeTableViewCell.swift in Sources */,
+				6EB248D7213534A1003CC1EA /* UIColor+RGB.swift in Sources */,
+				6E0F9113213BC8AE00100FCE /* ProductTypeTableViewCell.swift in Sources */,
+				6E0F910B213BC73400100FCE /* HexValueToRGB.swift in Sources */,
+				6E0F9105213BC5D000100FCE /* String+Extention.swift in Sources */,
+				6E429EAD2142D8F300FF70D2 /* LikeWebViewController.swift in Sources */,
 				6E4E609120EBAA1B009BA6CE /* ViewController.swift in Sources */,
+				6E0F8FDA213BBFBF00100FCE /* ProductTypeViewController.swift in Sources */,
 				6E4E608F20EBAA1B009BA6CE /* AppDelegate.swift in Sources */,
+				6E0C5EE620F747BE00BCF8F5 /* SignUpViewController.swift in Sources */,
+				6E0F911A213BCBB600100FCE /* Cosme.swift in Sources */,
+				6E142E482110445D00A220F5 /* P7ViewController.swift in Sources */,
+				6E0F8FDE213BBFEB00100FCE /* CosmeListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,15 +1122,17 @@
 		};
 		6E4E609E20EBAA1C009BA6CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4AB3AF739EA7D4113309084 /* Pods-FittingMakeup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22356ZJ2V9;
 				INFOPLIST_FILE = FittingMakeup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.monek.FittingMakeup;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takaoatsushi.FittingMakeup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,15 +1141,17 @@
 		};
 		6E4E609F20EBAA1C009BA6CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAFD65BB7FB3848BB4AE8726 /* Pods-FittingMakeup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22356ZJ2V9;
 				INFOPLIST_FILE = FittingMakeup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.monek.FittingMakeup;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takaoatsushi.FittingMakeup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
